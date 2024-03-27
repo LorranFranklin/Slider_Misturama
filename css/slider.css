@@ -352,22 +352,22 @@ a {
     opacity: 0;
   }
 }
-/*
- {
-  transform: translateX(50px);
-  filter: blur(20px);
-  opacity: 0;
-  animation: contentOut 0.5s 1s linear 1 forwards;
+@media screen and (max-width: 670px) {
+  .slider-Carrossel .list .item .content .title{
+    padding-right: 0;
+    font-size: 22px;
+  }
+  .slider-Carrossel .list .item .content .topic{
+    font-size: 18px;
+  }
 }
 
-}*/
-
-
-@media screen and (max-width: 678px) {
-  .carousel .list .item .content{
-      padding-right: 0;
+@media screen and (max-width: 990px) {
+  .slider-Carrossel .list .item .content .title{
+    padding-right: 0;
+    font-size: 50px;
   }
-  .carousel .list .item .content .title{
-      font-size: 30px;
+  .slider-Carrossel .list .item .content .topic{
+    font-size: 30px;
   }
 }
